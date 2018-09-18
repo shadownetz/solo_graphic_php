@@ -1,0 +1,103 @@
+.pattern-head{background:#fff;box-shadow: 2px 1px 1px #000;width:100%;position: fixed;margin-left:0;z-index:5;top:0}
+.pattern-head-img{padding:5px 10px;font-family:"Times New Roman", Times, serif}
+.img-txt{
+  color:#3D9970;font-family: Georgia, serif;
+  font-weight:bolder
+}
+.pattern-head-content ul{display: block;padding:10px 170px 30px 200px}
+.pattern-head-content ul li{
+  display: block;float:left;
+  padding:20px 40px;
+}
+.pattern-head-content ul li a{text-decoration: none;color:#000}
+.pattern-head-content ul li:hover{
+  border-top:3px solid #3D9970;background-color:rgba(250,250,250,0.5);
+}
+.carousel{text-align: center;}
+.carousel .slides{width:100%;height:100%;animation-duration: 2s}
+.carousel .img-1{background:url("../images/pic1.jpg") no-repeat center; background-size:100%;}
+.carousel .img-2{background:url("../images/pic2.jpg") no-repeat center; background-size:100%;}
+.carousel .img-3{background:url("../images/pic3.jpg") no-repeat center; background-size:100%;}
+.img-round{padding:2px}
+.carousel .carousel-inner{top:-30px}
+.carousel .carousel-inner .img-round{color:rgb(200,200,200)}
+.sect-two{
+  background:rgb(250,250,250) url("../images/img2.png") no-repeat right; background-size:50%;
+  height:200px;
+}
+.sect-two h2{
+  text-transform: uppercase;text-align: center;
+font-family:"Courier New", Courier, monospace;
+}
+.sect-two p{text-align: center;display: block;padding:30px 10px;
+font-size:1.5em}
+.sect-three .sect-three-img1{
+  background:url("../images/card1.jpg") no-repeat center; background-size:100%;
+}
+.sect-three .sect-three-img2{
+  background:url("../images/card2.jpg") no-repeat center; background-size:100%;
+}
+.sect-three .sect-three-img3{
+  background:url("../images/card3.jpg") no-repeat center; background-size:100%;
+}
+.sect-three .sect-three-img4{
+  background:url("../images/card4.jpg") no-repeat center; background-size:100%;
+}
+.sect-three .card{
+  margin-top:2px;background-color:#fff;box-shadow:1px 1px 1px #000;
+  font-size:1.5em;height:300px;
+}
+.card .card-inner{background-color:rgb(10,10,10,0.5);color:#fff;
+height:100%;text-align: center;
+}
+.card .card-inner h3 i{padding-right:10px}
+.card .card-inner hr{width:50%;text-align: center;margin-left:25%;}
+.card .card-inner h5{line-height: 50px;}
+.card .card-inner{display: none;}
+.sect-four{text-align: center;}
+.sect-four .pagination a:hover{cursor:pointer;}
+.sect-four .pagination .active a::before{
+  content:" ";
+  position: absolute;
+  border-width:10px;
+  border-style: solid;
+  border-color:#428bca transparent transparent transparent;
+  top:100%;
+  left:50%;
+  margin-left:-5px
+}
+.sect-five{padding-left:100px;background-color:#fff;border-radius:10px;box-shadow: -1px -1px 2px #000}
+.sect-five .card{height:200px;margin-top:5px}
+.sect-five .sect-five-img1{
+  background:url("../images/card1.jpg") no-repeat center; background-size:100%;
+}
+.sect-five .sect-five-img2{
+  background:url("../images/card5.jpg") no-repeat center; background-size:100%;
+}
+.sect-five .sect-five-img3{
+  background:url("../images/card6.jpg") no-repeat center; background-size:100%;
+}
+.sect-five .sect-five-img4{
+  background:url("../images/card4.jpg") no-repeat center; background-size:100%;
+}
+.sect-five .sect-five-img5{
+  background:url("../images/pic1.jpg") no-repeat center; background-size:100%;
+}
+.sect-five .sect-five-img6{
+  background:url("../images/pic2.jpg") no-repeat center; background-size:100%;
+}
+.sect-five .sect-five-img7{
+  background:url("../images/pic3.jpg") no-repeat center; background-size:100%;
+}
+.sect-five .sect-five-img8{
+  background:url("../images/pic4.jpg") no-repeat center; background-size:100%;
+}
+.line-deep{height:2px;background-color:#3D9970;}
+.form-control{border-radius: 0;height:50px;font-size: 1.5em}
+.input-field{margin-top:10px}
+.slides .slides-txt{font-size: 1.5em;color:#fff;font-variant: small-caps;top:60%;background-color:rgba(10,10,10,0.3);
+border-radius: 20px;text-shadow: 2px 2px 2px #000;animation-delay: 1s;animation-duration: 3s;
+}
+.sect-three .slides-txt{font-size: 1em;color:#fff;font-variant: small-caps;top:60%;background-color:rgba(10,10,10,0.3);
+border-radius: 20px;text-shadow: 2px 2px 2px #000;animation-duration: 3s;
+}
